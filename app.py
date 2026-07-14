@@ -14,8 +14,8 @@ from inference_sdk import InferenceHTTPClient, InferenceConfiguration
 
 # --------------------------------------------------------------------------
 MODEL_ID = "crowd-density-ou3ne/1"      # <-- double-check the version number
-CONFIDENCE_THRESHOLD = 0.10             # fixed at 30%
-MAX_DETECTIONS = 1500                   # raised above the default 300 cap
+CONFIDENCE_THRESHOLD = 0.30          # fixed at 30%
+MAX_DETECTIONS = 1000                   # raised above the default 300 cap
 API_URL = "https://serverless.roboflow.com"
 
 st.set_page_config(page_title="Crowd Counting (Roboflow)", layout="wide")
