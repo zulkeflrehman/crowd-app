@@ -58,7 +58,6 @@ def draw_predictions(pil_image: Image.Image, preds: list) -> Image.Image:
 
 st.title("Crowd Counting")
 st.caption(
-    f"Model: `{MODEL_ID}`  •  Confidence fixed at {int(CONFIDENCE_THRESHOLD * 100)}%  "
     f"•  Detection cap: {MAX_DETECTIONS}"
 )
 
