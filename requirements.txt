@@ -1,0 +1,5 @@
+streamlit>=1.35
+inference-sdk>=0.9
+pillow
+numpy
+opencv-python-headless
